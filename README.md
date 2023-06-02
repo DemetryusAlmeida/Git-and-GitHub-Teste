@@ -1,17 +1,18 @@
 # Using Markdown language in Git and GitHub
 
-### Types of title
+## Types of title
 ~~~
 # Title nvl 1
 ## Title nvl 2
 ### Title nvl 3
 ~~~
-Example:
+### Example:
+
 # Title nvl 1
 ## Title nvl 2
 ### Title nvl 3
 
-### Word in bold and italic
+## Word in bold and italic
 ~~~
 **Bold** or __Bold__
 
@@ -19,7 +20,7 @@ Example:
 
 _**Bold and Italic**_
 ~~~
-Example:
+### Example:
 
 **Bold**
 
@@ -27,21 +28,21 @@ Example:
 
 _**Bold and Italic**_
 
-### line
+## line
 ~~~
 ---
 
 Title
 ---
 ~~~
-Example:
+### Example:
 
 ---
 
 Title
 ---
 
-### Numbered list
+## Numbered list
 ~~~
 1. Word
 2. Word
@@ -50,7 +51,8 @@ Title
    3. Word
 4. Word
 ~~~
-Example:
+### Example:
+
 1. Word
 2. Word
    1. Word
@@ -58,7 +60,7 @@ Example:
    3. Word
 4. Word
 
-### Demarcated list
+## Demarcated list
 ~~~
 * Word
 * Word
@@ -67,7 +69,8 @@ Example:
    * Word
 * Word
 ~~~
-Example:
+### Example:
+
 * Word
 * Word
    * Word
@@ -75,29 +78,29 @@ Example:
    * Word
 * Word
 
-### Task list
+## Task list
 ~~~
 - [x] Word
 - [x] Word
 - [ ] Word
 - [ ] Word
 ~~~
-Example:
+### Example:
+
 - [x] Word
 - [x] Word
 - [ ] Word
 - [ ] Word
 
-### Link
+## Link
 ~~~
+[Word](Url)
+~~~
+### Example:
+
 [Demetryus Almeida](https://github.com/DemetryusAlmeida)
-~~~
-Example:
 
-[Demetryus Almeida](https://github.com/DemetryusAlmeida)
-
-
-### Tables
+## Tables
 ~~~
 |Word|Word|Word|
 |---|---|---|
@@ -105,14 +108,15 @@ Example:
 |Word|Word|Word|
 |Word|Word|Word|
 ~~~
-Example:
+### Example:
+
 |Word|Word|Word|
 |---|---|---|
 |Word|Word|Word|
 |Word|Word|Word|
 |Word|Word|Word|
 
-### Presenting commands using " ``` " and " ~~~ "
+## Presenting commands using " ``` " and " ~~~ "
 ~~~~
 ```
 Print("Hello, World!")
@@ -121,7 +125,8 @@ Print("Hello, World!")
 Print("Hello, World!")
 ~~~
 ~~~~
-Example:
+### Example:
+
 ```
 Print("Hello, World!")
 ```
